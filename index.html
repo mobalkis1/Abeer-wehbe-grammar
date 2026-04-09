@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Past Tense Click Game — teacher Abeer webhe</title>
+    <!-- Kid-friendly font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>🎯 Choose the correct past tense</h1>
+        <div class="header-row">
+          <p class="subtitle">Click the correct past form of the base verb shown below.</p>
+          <div class="school">Al Karameh School</div>
+        </div>
+      </header>
+
+      <section id="game" aria-live="polite">
+        <div class="card">
+          <div class="score-row">
+            <div>Score: <span id="score">0</span></div>
+            <div>Question: <span id="qnum">0</span></div>
+          </div>
+
+          <div class="prompt">
+            <div class="label">Base verb</div>
+            <div id="base" class="base-verb">run</div>
+          </div>
+
+          <div id="options" class="options" role="list">
+            <!-- options inserted here -->
+          </div>
+
+          <div class="controls">
+            <button id="nextBtn" class="btn" disabled>Next</button>
+            <button id="resetBtn" class="btn ghost">Reset</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div>Author: <strong>teacher Abeer webhe</strong></div>
+        <div class="school-footer">Al Karameh School</div>
+        <div class="note">Good luck — try to get as many correct as you can!</div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
